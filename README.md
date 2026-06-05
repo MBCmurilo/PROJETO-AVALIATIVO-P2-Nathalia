@@ -1,5 +1,3 @@
-# PROJETO-AVALIATIVO-P2-Nathalia
-
 # P2 - Classificação de Doença Hepática
 
 Projeto acadêmico da disciplina de Inteligência Artificial, usando o dataset **Indian Liver Patient Records** para classificar pacientes com ou sem indicativo de doença hepática.
