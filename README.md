@@ -1,4 +1,4 @@
-# P2 - Classificação de Doença Hepática
+# Classificação de Doença Hepática — Machine Learning com Streamlit
 
 > Aplicação web interativa para classificação de pacientes com possível indicativo de doença hepática, desenvolvida com Python, Scikit-learn e Streamlit.
 
@@ -9,7 +9,7 @@
 [![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Classification-purple)]()
 
-**Acesso ao app:** adicionar aqui o link gerado pelo Streamlit Community Cloud.
+**Acesso ao app:** https://projeto-avaliativo-p2-nathaliagit-hbk33qhfgjac7nm6xt9kpp.streamlit.app/
 
 ---
 
@@ -216,11 +216,9 @@ Todos os modelos foram comparados usando validação cruzada estratificada e mé
 
 O melhor modelo é selecionado automaticamente na última célula do notebook com base na métrica **AUC-ROC** calculada sobre os resultados de validação.
 
-Após executar o notebook, preencher:
-
 | Critério | Resultado |
 |---|---|
-| Melhor modelo selecionado | Preencher com o valor exibido no notebook |
+| Melhor modelo selecionado | Logistic Regression |
 | Critério de escolha | AUC-ROC |
 | Arquivo do modelo | `model/modelo_final.joblib` |
 | Arquivo do scaler | `model/scaler.joblib` |
@@ -241,15 +239,13 @@ As métricas calculadas no projeto foram:
 | F1-Score | Média harmônica entre precisão e recall | Útil quando há desequilíbrio entre classes |
 | AUC-ROC | Capacidade de separação entre as classes | Quanto mais próximo de 1, melhor |
 
-Após executar o notebook, preencher a tabela abaixo com os resultados finais do conjunto de teste:
-
 | Métrica | Resultado |
 |---|---:|
-| Acurácia | preencher |
-| Precisão | preencher |
-| Recall | preencher |
-| F1-Score | preencher |
-| AUC-ROC | preencher |
+| Acurácia | 0.72 |
+| Precisão | 0.76 |
+| Recall | 0.88 |
+| F1-Score | 0.81 |
+| AUC-ROC | 0.74 |
 
 ---
 
@@ -262,7 +258,6 @@ model/modelo_final.joblib
 model/scaler.joblib
 model/metadata.json
 ```
-
 O usuário informa os dados clínicos no formulário da interface. Em seguida, o app:
 
 1. Organiza os valores informados em um `DataFrame`;
@@ -271,12 +266,9 @@ O usuário informa os dados clínicos no formulário da interface. Em seguida, o
 4. Exibe a classe prevista;
 5. Exibe a probabilidade estimada para a classe 1, quando disponível.
 
-Adicionar aqui prints reais da aplicação funcionando:
+![Formulário da aplicação](docs/prints/formulario.png)
 
-```text
-docs/prints/formulario.png
-docs/prints/resultado.png
-```
+![Resultado da predição](docs/prints/resultado.png)
 
 ---
 
@@ -300,8 +292,8 @@ docs/prints/resultado.png
 
 ```bash
 # 1. Clone o repositório
-git clone LINK_DO_REPOSITORIO
-cd NOME_DO_REPOSITORIO
+git clone https://github.com/unimarnata-GG/PROJETO-AVALIATIVO-P2
+cd PROJETO-AVALIATIVO-P2
 
 # 2. Crie e ative o ambiente virtual
 python -m venv venv
