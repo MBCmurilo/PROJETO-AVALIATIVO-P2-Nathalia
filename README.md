@@ -9,7 +9,7 @@
 [![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Classification-purple)]()
 
-**Acesso ao app:** adicionar aqui o link gerado pelo Streamlit Community Cloud.
+**Acesso ao app:** https://projeto-avaliativo-p2-nathaliagit-hbk33qhfgjac7nm6xt9kpp.streamlit.app/
 
 ---
 
