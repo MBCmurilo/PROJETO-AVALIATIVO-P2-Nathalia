@@ -267,7 +267,6 @@ O usuário informa os dados clínicos no formulário da interface. Em seguida, o
 4. Exibe a classe prevista;
 5. Exibe a probabilidade estimada para a classe 1, quando disponível.
 
-```markdown
 ### Formulário de entrada
 
 ![Formulário da aplicação](docs/prints/formulario.png)
@@ -275,7 +274,6 @@ O usuário informa os dados clínicos no formulário da interface. Em seguida, o
 ### Resultado da predição
 
 ![Resultado da aplicação](docs/prints/resultado.png))
-```
 
 ---
 
