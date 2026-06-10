@@ -273,7 +273,7 @@ O usuário informa os dados clínicos no formulário da interface. Em seguida, o
 
 ### Resultado da predição
 
-![Resultado da aplicação](docs/prints/resultado.png))
+![Resultado da aplicação](docs/prints/resultado.png)
 
 ---
 
