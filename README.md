@@ -189,7 +189,7 @@ Dataset original
 12. Avaliação final no conjunto de teste
         │
         ▼
-13. Salvamento do modelo, scaler e metadados
+13. Salvamento do Pipeline e dos metadados
         │
         ▼
 14. Uso do modelo na aplicação Streamlit
@@ -270,12 +270,11 @@ O usuário informa os dados clínicos no formulário da interface. Em seguida, o
 ```markdown
 ### Formulário de entrada
 
-docs/prints/formulario.png
+![Formulário da aplicação](docs/prints/formulario.png)
 
 ### Resultado da predição
 
-[<img width="593" height="559" alt="image" src="https://github.com/user-attachments/assets/299c0cfa-7428-4fde-8422-b9c8b34d132f" />
-](https://github.com/MBCmurilo/PROJETO-AVALIATIVO-P2-Nathalia/blob/dc8e05f8e1a73eb99e4ab78c0a065327bdb9d8c1/docs/prints/resultado.png)
+![Resultado da aplicação](docs/prints/resultado.png))
 ```
 
 ---
@@ -290,7 +289,7 @@ docs/prints/formulario.png
 | Manipulação de dados | Pandas | Leitura, tratamento e organização dos dados |
 | Computação numérica | NumPy | Operações numéricas |
 | Visualização | Matplotlib e Seaborn | Gráficos da análise exploratória |
-| Serialização | Joblib | Salvamento do modelo e scaler |
+| Serialização | Joblib | Serialização do Pipeline treinado |
 
 ---
 
