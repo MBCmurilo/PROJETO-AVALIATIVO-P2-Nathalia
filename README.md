@@ -270,12 +270,12 @@ O usuário informa os dados clínicos no formulário da interface. Em seguida, o
 ```markdown
 ### Formulário de entrada
 
-<img width="640" height="551" alt="image" src="https://github.com/user-attachments/assets/fef4e7f8-52be-49c0-9994-c5e7eb991244" />
+docs/prints/formulario.png
 
 ### Resultado da predição
 
-<img width="593" height="559" alt="image" src="https://github.com/user-attachments/assets/299c0cfa-7428-4fde-8422-b9c8b34d132f" />
-
+[<img width="593" height="559" alt="image" src="https://github.com/user-attachments/assets/299c0cfa-7428-4fde-8422-b9c8b34d132f" />
+](https://github.com/MBCmurilo/PROJETO-AVALIATIVO-P2-Nathalia/blob/dc8e05f8e1a73eb99e4ab78c0a065327bdb9d8c1/docs/prints/resultado.png)
 ```
 
 ---
